@@ -2,72 +2,73 @@
 
 ```yaml
 - generic [ref=e2]:
-  - navigation [ref=e3]:
-    - generic:
-      - link "conduit" [ref=e4]:
-        - /url: /
-      - list [ref=e5]:
-        - listitem [ref=e6]:
-          - link "Home" [ref=e7]:
-            - /url: /
-        - listitem [ref=e8]:
-          - link " New Article" [ref=e9]:
-            - /url: /editor
-            - generic [ref=e10]: 
-            - text: New Article
-        - listitem [ref=e11]:
-          - link " Settings" [ref=e12]:
-            - /url: /settings
-            - generic [ref=e13]: 
-            - text: Settings
-        - listitem [ref=e14]:
-          - link "pwtest1768583223836" [ref=e15]:
-            - /url: /@pwtest1768583223836/
-  - generic [ref=e16]:
-    - generic [ref=e20]:
-      - img [ref=e21]
-      - heading "pwtest1768583223836" [level=4] [ref=e22]
-      - paragraph
-      - link " Edit Profile Settings" [ref=e23] [cursor=pointer]:
-        - /url: /settings
-        - generic [ref=e24]: 
-        - text: Edit Profile Settings
-    - generic [ref=e27]:
-      - list [ref=e29]:
-        - listitem [ref=e30]:
-          - link "My Articles" [ref=e31]:
-            - /url: /@pwtest1768583223836/
-        - listitem [ref=e32]:
-          - link "Favorited Articles" [ref=e33]:
-            - /url: /@pwtest1768583223836/favorites
-      - generic [ref=e36]:
-        - generic [ref=e37]:
-          - generic [ref=e38]:
-            - link [ref=e39]:
-              - /url: /@pwtest1768583223836/
-              - img [ref=e40]
-            - generic [ref=e41]:
-              - link "pwtest1768583223836" [ref=e42]:
-                - /url: /@pwtest1768583223836/
-              - generic [ref=e43]: January 16, 2026
-            - button " 0" [ref=e44] [cursor=pointer]:
-              - generic [ref=e45]: 
-              - text: "0"
-          - link "E2E Test Article 1768583223836 testing article creation Read more..." [ref=e46]:
-            - /url: /articles/e2e-test-article-1768583223836-ehl16t
-            - heading "E2E Test Article 1768583223836" [level=1] [ref=e47]
-            - paragraph [ref=e48]: testing article creation
-            - text: Read more...
-            - list
-        - navigation [ref=e49]:
-          - list
-  - contentinfo [ref=e50]:
-    - generic [ref=e51]:
-      - link "conduit" [ref=e52]:
-        - /url: /
-      - generic [ref=e53]:
-        - text: An interactive learning project from
-        - link "Thinkster" [ref=e54]:
-          - /url: https://thinkster.io
-        - text: . Code & design licensed under MIT.
+    - navigation [ref=e3]:
+        - generic:
+            - link "conduit" [ref=e4]:
+                - /url: /
+            - list [ref=e5]:
+                - listitem [ref=e6]:
+                    - link "Home" [ref=e7]:
+                        - /url: /
+                - listitem [ref=e8]:
+                    - link " New Article" [ref=e9]:
+                        - /url: /editor
+                        - generic [ref=e10]: 
+                        - text: New Article
+                - listitem [ref=e11]:
+                    - link " Settings" [ref=e12]:
+                        - /url: /settings
+                        - generic [ref=e13]: 
+                        - text: Settings
+                - listitem [ref=e14]:
+                    - link "pwtest1768583223836" [ref=e15]:
+                        - /url: /@pwtest1768583223836/
+    - generic [ref=e16]:
+        - generic [ref=e20]:
+            - img [ref=e21]
+            - heading "pwtest1768583223836" [level=4] [ref=e22]
+            - paragraph
+            - link " Edit Profile Settings" [ref=e23] [cursor=pointer]:
+                - /url: /settings
+                - generic [ref=e24]: 
+                - text: Edit Profile Settings
+        - generic [ref=e27]:
+            - list [ref=e29]:
+                - listitem [ref=e30]:
+                    - link "My Articles" [ref=e31]:
+                        - /url: /@pwtest1768583223836/
+                - listitem [ref=e32]:
+                    - link "Favorited Articles" [ref=e33]:
+                        - /url: /@pwtest1768583223836/favorites
+            - generic [ref=e36]:
+                - generic [ref=e37]:
+                    - generic [ref=e38]:
+                        - link [ref=e39]:
+                            - /url: /@pwtest1768583223836/
+                            - img [ref=e40]
+                        - generic [ref=e41]:
+                            - link "pwtest1768583223836" [ref=e42]:
+                                - /url: /@pwtest1768583223836/
+                            - generic [ref=e43]: January 16, 2026
+                        - button " 0" [ref=e44] [cursor=pointer]:
+                            - generic [ref=e45]: 
+                            - text: '0'
+                    - ? link "E2E Test Article 1768583223836 testing article creation Read more..."
+                        [ref=e46]
+                      : - /url: /articles/e2e-test-article-1768583223836-ehl16t
+                        - heading "E2E Test Article 1768583223836" [level=1] [ref=e47]
+                        - paragraph [ref=e48]: testing article creation
+                        - text: Read more...
+                        - list
+                - navigation [ref=e49]:
+                    - list
+    - contentinfo [ref=e50]:
+        - generic [ref=e51]:
+            - link "conduit" [ref=e52]:
+                - /url: /
+            - generic [ref=e53]:
+                - text: An interactive learning project from
+                - link "Thinkster" [ref=e54]:
+                    - /url: https://thinkster.io
+                - text: . Code & design licensed under MIT.
 ```

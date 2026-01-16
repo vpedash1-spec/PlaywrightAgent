@@ -1,0 +1,8 @@
+# Автоматично нормалізувати закінчення рядків для всіх текстових файлів
+* text=auto eol=lf
+
+# Явно вказати, що конфіги та код мають завжди використовувати LF
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+.prettierrc text eol=lf

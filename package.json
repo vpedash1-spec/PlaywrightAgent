@@ -6,7 +6,8 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:report": "playwright show-report",
-    "prettier": "prettier --write '**/*.{js,ts}'"
+    "prettier:format": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",
